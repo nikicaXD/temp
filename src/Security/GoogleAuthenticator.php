@@ -96,7 +96,7 @@ class GoogleAuthenticator extends SocialAuthenticator
                 $user = $this->userManager->createUser();
                 $user->setEnabled(true);
                 $user->setEmail($email);
-                $user->setUsername($googleUser[email]);
+                $user->setUsername($email);
                 $user->setPlainPassword("your chosen password1");
             }
         }
