@@ -25,7 +25,7 @@
                     <div class="container">
                         <div class="navbar-header col-md-3 col-lg-2">
                             <a class="navbar-brand" href="{{ path('homepage') }}">
-                                Symfony Demo
+                                Nikita
                             </a>
 
                             <button type="button" class="navbar-toggle"
@@ -62,7 +62,7 @@
 
                                 {% if app.user %}
                                     <li>
-                                        <a href="{{ path('security_logout') }}">
+                                        <a href="{{ path('fos_user_security_logout') }}">
                                             <i class="fa fa-sign-out" aria-hidden="true"></i> {{ 'menu.logout'|trans }}
                                         </a>
                                     </li>
@@ -88,9 +88,6 @@
         {% endblock %}
 
         <div class="container body-container">
-            <a href="{{ path('connect_google_start') }}">
-                Google
-            </a>
 
             {% block body %}
                 <div class="row">
@@ -118,19 +115,19 @@
                 <div class="container">
                     <div class="row">
                         <div id="footer-copyright" class="col-md-6">
-                            <p>&copy; {{ 'now'|date('Y') }} - The Symfony Project</p>
+                            <p>&copy; {{ 'now'|date('Y') }} - My Project</p>
                             <p>{{ 'mit_license'|trans }}</p>
                         </div>
                         <div id="footer-resources" class="col-md-6">
                             <p>
-                                <a href="https://twitter.com/symfony" title="Symfony Twitter">
+                                <a href="https://twitter.com/nika_gabrovec" title="Twitter">
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://www.facebook.com/SensioLabs" title="SensioLabs Facebook">
+                                <a href="https://www.facebook.com/profile.php?id=100011418011195" title="Facebook">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://symfony.com/blog/" title="Symfony Blog">
-                                    <i class="fa fa-rss" aria-hidden="true"></i>
+                                <a href="https://weheartit.com/nika_117/uploads" title="weHeartIt">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
                                 </a>
                             </p>
                         </div>
