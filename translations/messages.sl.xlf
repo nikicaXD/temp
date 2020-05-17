@@ -58,7 +58,7 @@
 
             <trans-unit id="title.homepage">
                 <source>title.homepage</source>
-                <target><![CDATA[Pozdravljeni v aplikaciji <strong>Nikita</strong>]]></target>
+                <target state="translated"><![CDATA[Pozdravljeni v aplikaciji <strong>Nikita</strong>]]></target>
             </trans-unit>
             <trans-unit id="title.source_code">
                 <source>title.source_code</source>
@@ -161,6 +161,10 @@
                 <source>action.sign_in</source>
                 <target>Prijava</target>
             </trans-unit>
+            <trans-unit id="menu.login">
+                <source>menu.login</source>
+                <target>Prijava</target>
+            </trans-unit>
             <trans-unit id="action.browse_app">
                 <source>action.browse_app</source>
                 <target>Ogled aplikacije</target>
@@ -253,7 +257,7 @@
             </trans-unit>
             <trans-unit id="menu.rss">
                 <source>menu.rss</source>
-                <target>RSS objav bloga</target>
+                <target state="translated">RSS objava</target>
             </trans-unit>
             <trans-unit id="menu.search">
                 <source>menu.search</source>
@@ -312,7 +316,7 @@
 
             <trans-unit id="help.app_description">
                 <source>help.app_description</source>
-                <target><![CDATA[To je <strong>demo aplikacija</strong> zgrajena z ogrodjem Symfony za prikaz priporočenega načina razvoja aplikacij Symfony.]]></target>
+                <target state="translated"><![CDATA[To je moja <strong>stran</strong> za objavlanje novic.]]></target>
             </trans-unit>
             <trans-unit id="help.show_code">
                 <source>help.show_code</source>
@@ -353,7 +357,7 @@
 
             <trans-unit id="rss.title">
                 <source>rss.title</source>
-                <target>Symfony Demo blog</target>
+                <target state="translated">Nikita</target>
             </trans-unit>
             <trans-unit id="rss.description">
                 <source>rss.description</source>

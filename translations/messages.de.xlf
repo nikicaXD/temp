@@ -21,7 +21,7 @@
 
             <trans-unit id="title.homepage">
                 <source>title.homepage</source>
-                <target><![CDATA[Willkommen zur <strong>Nikita</strong> Anwendung]]></target>
+                <target state="translated"><![CDATA[Willkommen zur <strong>Nikita</strong> Anwendung]]></target>
             </trans-unit>
             <trans-unit id="title.source_code">
                 <source>title.source_code</source>
@@ -202,7 +202,10 @@
                 <source>menu.logout</source>
                 <target>Logout</target>
             </trans-unit>
-
+            <trans-unit id="menu.login">
+                <source>menu.login</source>
+                <target>Login</target>
+            </trans-unit>
             <trans-unit id="post.to_publish_a_comment">
                 <source>post.to_publish_a_comment</source>
                 <target>um einen Kommentar zu veröffentlichen</target>
@@ -242,7 +245,7 @@
             
             <trans-unit id="help.app_description">
                 <source>help.app_description</source>
-                <target><![CDATA[Das ist eine <strong>Demo Applikation</strong>, die mit dem Symfony Framework gebaut wurde um eine Empfehlung für die Entwicklung auszusprechen.]]></target>
+                <target state="translated"><![CDATA[Dies ist eine <strong>Seite</strong>, die von mir erstellt wurde, um Nachrichten zu veröffentlichen.]]></target>
             </trans-unit>
             <trans-unit id="help.show_code">
                 <source>help.show_code</source>
@@ -286,7 +289,7 @@
             </trans-unit>
             <trans-unit id="rss.title">
                 <source>rss.title</source>
-                <target>Blog</target>
+                <target state="translated">Nikita</target>
             </trans-unit>
             <trans-unit id="menu.choose_language">
                 <source>menu.choose_language</source>
@@ -298,7 +301,7 @@
             </trans-unit>
             <trans-unit id="menu.rss">
                 <source>menu.rss</source>
-                <target>Blog Posts RSS</target>
+                <target state="translated"> Posts RSS</target>
             </trans-unit>
             <trans-unit id="menu.search">
                 <source>menu.search</source>
