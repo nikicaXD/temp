@@ -251,6 +251,10 @@
                 <source>menu.logout</source>
                 <target>Logout</target>
             </trans-unit>
+            <trans-unit id="menu.login">
+                 <source>menu.login</source>
+                 <target>Login</target>
+            </trans-unit>
             <trans-unit id="menu.rss">
                 <source>menu.rss</source>
                 <target>Posts RSS</target>
@@ -320,11 +324,11 @@
             </trans-unit>
             <trans-unit id="help.browse_app">
                 <source>help.browse_app</source>
-                <target><![CDATA[Browse the <strong>public section</strong> of the demo application.]]></target>
+                <target><![CDATA[Browse the <strong>public section</strong> of the application.]]></target>
             </trans-unit>
             <trans-unit id="help.browse_admin">
                 <source>help.browse_admin</source>
-                <target><![CDATA[Browse the <strong>admin backend</strong> of the demo application.]]></target>
+                <target><![CDATA[Browse the <strong>admin backend</strong> of the application.]]></target>
             </trans-unit>
             <trans-unit id="help.login_users">
                 <source>help.login_users</source>

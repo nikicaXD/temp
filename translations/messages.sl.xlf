@@ -161,10 +161,6 @@
                 <source>action.sign_in</source>
                 <target>Prijava</target>
             </trans-unit>
-            <trans-unit id="menu.login">
-                <source>menu.login</source>
-                <target>Prijava</target>
-            </trans-unit>
             <trans-unit id="action.browse_app">
                 <source>action.browse_app</source>
                 <target>Ogled aplikacije</target>
@@ -241,7 +237,7 @@
             </trans-unit>
             <trans-unit id="menu.back_to_blog">
                 <source>menu.back_to_blog</source>
-                <target>Nazaj na blog</target>
+                <target>Nazaj na novice</target>
             </trans-unit>
             <trans-unit id="menu.homepage">
                 <source>menu.homepage</source>
@@ -361,7 +357,7 @@
             </trans-unit>
             <trans-unit id="rss.description">
                 <source>rss.description</source>
-                <target>Najnovejše objave objavljene na Symfony Demo blogu</target>
+                <target>Najnovejše objavljene objave</target>
             </trans-unit>
         </body>
     </file>

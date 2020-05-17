@@ -202,10 +202,7 @@
                 <source>menu.logout</source>
                 <target>Logout</target>
             </trans-unit>
-            <trans-unit id="menu.login">
-                <source>menu.login</source>
-                <target>Login</target>
-            </trans-unit>
+
             <trans-unit id="post.to_publish_a_comment">
                 <source>post.to_publish_a_comment</source>
                 <target>um einen Kommentar zu veröffentlichen</target>
@@ -253,11 +250,11 @@
             </trans-unit>
             <trans-unit id="help.browse_app">
                 <source>help.browse_app</source>
-                <target><![CDATA[Gehe zum <strong>Frontend</strong> der Demo Applikation.]]></target>
+                <target><![CDATA[Gehe zum <strong>Frontend</strong> der Applikation.]]></target>
             </trans-unit>
             <trans-unit id="help.browse_admin">
                 <source>help.browse_admin</source>
-                <target><![CDATA[Gehe zum <strong>Backend</strong> der Demo Applikation.]]></target>
+                <target><![CDATA[Gehe zum <strong>Backend</strong> der Applikation.]]></target>
             </trans-unit>
             <trans-unit id="help.login_users">
                 <source>help.login_users</source>
