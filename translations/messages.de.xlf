@@ -126,7 +126,7 @@
             </trans-unit>
             <trans-unit id="action.browse_admin">
                 <source>action.browse_admin</source>
-                <target>Zum Backend</target>
+                <target>Zum Edit</target>
             </trans-unit>
 
             <trans-unit id="label.title">

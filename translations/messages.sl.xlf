@@ -251,6 +251,10 @@
                 <source>menu.logout</source>
                 <target>Odjava</target>
             </trans-unit>
+            <trans-unit id="menu.login">
+                <source>menu.login</source>
+                <target>Prijava</target>
+            </trans-unit>
             <trans-unit id="menu.rss">
                 <source>menu.rss</source>
                 <target state="translated">RSS objava</target>

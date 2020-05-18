@@ -245,7 +245,7 @@
             </trans-unit>
             <trans-unit id="menu.admin">
                 <source>menu.admin</source>
-                <target>Backend</target>
+                <target>Edit</target>
             </trans-unit>
             <trans-unit id="menu.logout">
                 <source>menu.logout</source>
